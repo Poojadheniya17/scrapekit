@@ -3,8 +3,7 @@ app.py — ScrapeKit v2.1
 Warm editorial aesthetic. Price comparison + clickable Buy Now links.
 
 """
-from dotenv import load_dotenv
-load_dotenv()
+
 import time, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
